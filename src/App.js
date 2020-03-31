@@ -1,14 +1,15 @@
 import React from 'react';
-import Counter from './Counter';
+import Counter from './components/Counter';
+import SuperMarket from './components/SuperMarket';
 
-import './App.css';
-
-function App() {
+const App = () => {
   return (
     <div>
       <Counter />
+      <hr />
+      <SuperMarket />
     </div>
   );
-}
+};
 
 export default App;
